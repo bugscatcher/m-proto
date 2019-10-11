@@ -3,6 +3,7 @@ package mpackage;
 
 option java_package = "com.github.bugscatcher";
 option java_outer_classname = "UsersProtos";
+option go_package = "services";
 
 service UsersService {
     rpc GetUsers (QueryUsers) returns (ResultUsers);
